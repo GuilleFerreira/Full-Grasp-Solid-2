@@ -23,3 +23,10 @@ namespace Full_GRASP_And_SOLID.Library
         }
     }
 }
+
+/*
+Aqui se utiliza el principio SOLID para asignar la tarea de imprimir a otra clase
+Así la clase de recipe no tiene que hacer varias tareas. Solo se ocupa de armar la receta,
+y la clase ConsolePrinter utiliza esos datos y los imprime en consola. 
+La clase recipe seria el experto porque contien todos los datos que necesitamos
+*/
